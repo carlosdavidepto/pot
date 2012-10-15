@@ -1,0 +1,19 @@
+{
+  "name": "pot",
+  "version": "1.0.0",
+  "description": "Like a small bucket. Really tiny, in memory, KISS keystore for node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosdavidepto/pot.git"
+  },
+  "keywords": [
+    "memory",
+    "keystore"
+  ],
+  "author": "Carlos Davide <carlosdavidepto@13brane.net>",
+  "license": "MIT"
+}
