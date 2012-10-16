@@ -34,6 +34,8 @@ Simplest use case, require, get and set keys to your heart's content:
         .set('a', 1)
         .set('b', 2);
     defaultPot.get('a'); // 1
+    defaultPot.del('a');
+    defaultPot.get('a'); // undefined
 
 Using namespaces:
 
