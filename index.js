@@ -14,4 +14,14 @@ var Pot = function (ns) {
         return this;
     };
 
+    Pot.prototype.del = function (key) {
+        delete Pot.prototype.ks[this.ns][key];
+        return this;
+    }
+
+    Pot.prototype.flush = function () {
+        Pot.prototype.ks[this.ns] = {};
+        return this;
+    }
+
 module.exports = Pot;
