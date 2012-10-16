@@ -47,7 +47,12 @@ Using namespaces:
     potA.get('x');          // 'hello'
 
 
-You can even use it like this across differente files, and the effect is the same.
+You can even use it like this across different files, and the effect is the same.
+
+If you need to, you can flush all the keys from a namespace with:
+
+    var pot = new Pot('byebyenamespace');
+    pot.flush();
 
 
 License
